@@ -1,0 +1,9 @@
+[project]
+name = "raspi-py-ps4-recv"
+version = "0.1.0"
+description = "Sample Receiver for PS4 Wireless Controller"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "evdev>=1.9.2",
+]
