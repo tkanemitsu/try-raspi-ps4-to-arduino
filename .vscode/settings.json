@@ -2,10 +2,12 @@
     "editor.formatOnSave": true,
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.extraPaths": [
-        "${workspaceFolder}/raspi_py_ps4_recv/.venv/lib/python3.13/site-packages"
+        "${workspaceFolder}/raspi_py_ps4_recv/.venv/lib/python3.13/site-packages",
+        "${workspaceFolder}/raspi_py_uart_send/.venv/lib/python3.13/site-packages"
     ],
     "python.autoComplete.extraPaths": [
-        "${workspaceFolder}/raspi_py_ps4_recv/.venv/lib/python3.13/site-packages"
+        "${workspaceFolder}/raspi_py_ps4_recv/.venv/lib/python3.13/site-packages",
+        "${workspaceFolder}/raspi_py_uart_send/.venv/lib/python3.13/site-packages"
     ],
     "ruff.lint.select": [
         "E4",

@@ -1,4 +1,4 @@
-# Raspi + Arduino 連携
+# RasPi + Arduino 連携
 
 
 
@@ -6,16 +6,16 @@
 
 ソースコードや実行方法: [raspi_py_ps4_recv/](./raspi_py_ps4_recv/README.md)
 
-### Raspiへのソースコード転送例
+### RasPiへのソースコード転送例
 
 ```sh
 # サブディレクトリ raspi_py_ps4_recv のアーカイブ (.tar.gz) を作成
 git archive --format=tar.gz --output=project.tar.gz HEAD raspi_py_ps4_recv
 
-# Raspiにアーカイブを転送
+# RasPiにアーカイブを転送
 scp project.tar.gz username@remote-host:/path/to/destination/
 
-# Raspi上でアーカイブを展開し、実行
+# RasPi上でアーカイブを展開し、実行
 ssh username@remote-host
 cd /path/to/destination
 tar -xzf project.tar.gz
@@ -29,11 +29,12 @@ cd raspi_py_ps4_recv/
 WIP
 
 
-## Raspi から Arduino を UART で制御するサンプル
+## RasPi から Arduino を UART で制御するサンプル (Python)
 
 WIP
 
-
+* Arduino (.ino): [./arduino_uart_recv/](arduino_uart_recv/README.md)
+* RasPi (.py): [./raspi_py_uart_send/](raspi_py_uart_send/README.md)
 
 
 
